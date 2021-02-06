@@ -1,0 +1,507 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box !important;
+  outline: none !important;
+}
+a {
+  text-decoration: none !important;
+}
+
+a,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Poppins", sans-serif !important;
+}
+/* .................. Header Start........................ */
+header {
+  padding: 2.5rem 0;
+  position: absolute;
+  width: 100%;
+}
+header .logo {
+  color: #fcae61;
+}
+.navbar {
+  background-color: transparent !important;
+}
+header li {
+  padding-right: 2rem;
+}
+header button {
+  padding: 10px 2rem !important;
+}
+header .btn-primary {
+  color: #fff;
+  background-color: #2500f9;
+  border-color: #2500f9;
+  border-radius: 39px;
+}
+header .btn-primary:hover {
+  color: #fff;
+  background-color: #6249f3;
+  border-color: #6249f3;
+  border-radius: 39px;
+}
+/* .................. Header End........................ */
+
+/* .................. Group 1 Start........................ */
+.grp1 {
+  width: 100%;
+  background-image: url(../img/1.png);
+  height: 135vh;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding: 10rem 0;
+}
+.grp1 .col-md-8 {
+  padding: 10rem 7rem;
+}
+.grp1 .stext {
+  display: inline-block !important;
+  background-color: #e2eaed;
+  padding-right: 35px;
+  border-radius: 2rem;
+}
+.grp1 h1 {
+  font-size: 58px;
+  font-weight: 600;
+  color: #242f51;
+}
+.grp1 p {
+  font-size: 18px;
+  color: #242f51;
+  margin: 0;
+}
+.grp1 .btext {
+  display: inline-flex !important;
+  align-items: center;
+  padding: 2rem 0;
+}
+.grp1 .btn-primary {
+  color: #fff;
+  background-color: #2500f9;
+  border-color: #2500f9;
+  border-radius: 39px;
+  padding: 10px 20px;
+  margin-right: 1.5rem;
+}
+.grp1 .stext span {
+  font-weight: 500;
+  padding-left: 10px;
+}
+.grp1 .btext p {
+  color: #2500f9 !important;
+  font-size: 16px;
+}
+.grp1 .btn-primary:hover {
+  color: #fff;
+  background-color: #6249f3;
+  border-color: #6249f3;
+  border-radius: 39px;
+}
+
+/* .................. Group 1 End........................ */
+
+/* .................. Group 2 Start........................ */
+.grp2 {
+  padding: 5rem 0;
+}
+.grp2 .owl-carousel .owl-item img {
+  width: auto !important;
+}
+.grp2 .owl-carousel .owl-stage {
+  display: inline-flex;
+  align-items: center;
+}
+.grp2 h4 {
+  text-align: center !important;
+}
+.grp2 .owl-carousel .owl-item img {
+  /* display: block; */
+  width: 100%;
+  margin: 0;
+  display: inline;
+}
+
+.grp2 .features {
+  width: 100%;
+  display: flow-root;
+  float: left;
+}
+
+.grp2 .features .left {
+  width: 30%;
+  float: left;
+}
+
+.grp2 .features .right {
+  width: 70%;
+  float: right;
+}
+.grp2 .down {
+  padding-top: 8rem;
+}
+.grp2 .down p {
+  font-size: 16px;
+  color: #242f51;
+}
+.grp2 .features {
+  padding: 10px 1rem;
+  display: flex;
+  align-items: center;
+}
+/* .................. Group 2 End........................ */
+
+/* .................. Group 3 Start........................ */
+.grp3 .up h1 {
+  border-right: 1px solid #c6c7ca !important;
+  /* text-align: center; */
+  padding: 0 3.5rem;
+  font-weight: 600;
+}
+.grp3 .up p {
+  color: #575d70;
+  padding-left: 30px;
+  padding-top: 20px;
+  padding-right: 27px;
+}
+
+.grp3 .down .text {
+  padding: 6rem !important;
+}
+.grp3 .down .text h1 {
+  font-size: 36px !important;
+}
+.grp3 .down .text p {
+  font-size: 16px !important;
+  padding: 25px 6px !important;
+}
+
+/* .................. Group 3 End........................ */
+
+/* .................. Group 4 Start........................ */
+.grp4 {
+  text-align: center !important;
+  padding: 8rem !important;
+  margin-top: 2rem !important;
+  border-top: 2px solid rgb(207, 207, 207);
+  color: #242f51;
+}
+.grp4 h1 {
+  padding: 2rem 17rem !important;
+}
+.grp4 .text {
+  padding: 0 13rem !important;
+  padding-bottom: 4rem !important;
+}
+/* .................. Group 4 End........................ */
+
+/* .................. Group 5 Start........................ */
+.grp5 {
+  width: 100%;
+  position: relative;
+  padding: 3rem !important;
+  color: #242f51;
+}
+.grp5 .background {
+  position: absolute !important;
+  right: 0;
+  bottom: 20%;
+  width: 40% !important;
+}
+.grp5 .text5 {
+  padding: 5rem 15px;
+}
+.grp5 h1 {
+  padding-bottom: 1rem;
+  width: 70%;
+}
+.grp5 .col-md-7 .textgrp5 {
+  width: 80% !important;
+}
+
+/* .................. Group 5 End........................ */
+
+/* .................. Group 6 Start........................ */
+.grp6 {
+  width: 100%;
+  /* position: relative; */
+  padding: 3rem !important;
+  color: #242f51;
+  padding-bottom: 5rem !important;
+}
+.custom_toggle {
+  position: relative;
+  width: 100%;
+  height: 130px;
+}
+.tog-button {
+  position: absolute;
+  bottom: 30%;
+  left: 40%;
+
+  /* transform: translate(-50%,-50%); */
+}
+.tg-btn {
+  width: 200px;
+  height: 50px;
+  background-color: white;
+  border: 1px solid rgb(161, 160, 160);
+  border-radius: 50px;
+  padding: 3px;
+  transition: all 300ms ease-in-out;
+}
+.tg-btn:hover {
+  cursor: pointer;
+}
+.tg-btn .name {
+  position: absolute;
+  color: white;
+  bottom: -2px;
+  padding-left: 22px;
+  font-weight: 600;
+  text-shadow: 2px 2px 4px #2500f9;
+}
+.tg-btn .inner {
+  width: 100px;
+  height: 42px;
+  background-color: #2500f9;
+  border-radius: 50px;
+  transition: all 300ms ease-in-out;
+}
+.tg-btn.active .inner {
+  margin-left: 92px;
+  color: white !important;
+}
+.tg-btn.active .rightcard .card-header {
+  border: none !important;
+  color: red !important;
+}
+.grp6 .text {
+  width: 60%;
+  /* margin-left: auto; */
+  margin: 3rem auto;
+  text-align: center;
+}
+.grp6 .row {
+  width: 70%;
+  margin: 1rem auto;
+}
+.grp6 .card {
+  border-radius: 15px !important;
+}
+.grp6 .card-header {
+  background-color: #f5f8fa !important;
+  border-bottom: none !important;
+  text-align: center;
+  padding: 2rem 0;
+  border-radius: 15px 15px 0 0 !important;
+}
+.grp6 .card-header span {
+  font-size: 55px;
+  font-weight: 600;
+  color: #242f51 !important;
+}
+.grp6 .card-header p {
+  font-size: 18px;
+  color: #575d70;
+}
+.grp6 .card-header h6 {
+  font-size: 20px;
+  font-weight: 700;
+}
+.grp6 .card-body li {
+  list-style: none;
+  text-align: center;
+  padding: 14px;
+  color: #575d70;
+  /* border-bottom: none !important; */
+}
+.grp6 .card-footer {
+  text-align: center !important;
+  padding: 2rem;
+  border-top: none;
+  background-color: white;
+  border-radius: 15px !important;
+}
+.grp6 .col-md-6 {
+  flex: 0 0 auto;
+  width: 47%;
+  margin: 0 11px;
+}
+.mystyle {
+  border: none !important;
+  box-shadow: 8px 8px 40px 5px #c6c7ca, -8px -8px 40px 5px #c6c7ca !important;
+}
+.mystyle1 {
+  border: 1px solid #d7d8db !important;
+  box-shadow: none !important;
+}
+.grp6 .leftcard {
+  border: none;
+  box-shadow: 8px 8px 40px 5px #c6c7ca, -8px -8px 40px 5px #c6c7ca;
+}
+/* .................. Group 6 End........................ */
+
+/* .................. Group 7 Start........................ */
+.grp7 {
+  width: 100%;
+  position: relative;
+  padding: 10rem 0 !important;
+  border-top: 1px solid #c6c7ca;
+  color: #242f51;
+}
+.grp7 .backgrnd {
+  position: absolute;
+  left: 0;
+  bottom: 30%;
+  width: 52%;
+}
+.grp7 .testimnl {
+  align-items: center !important;
+}
+.grp7 .slider .owl-carousel .owl-item img {
+  width: auto !important;
+}
+.grp7 .testimnl img {
+  text-align: right !important;
+}
+.grp7 .testimnl h5 {
+  /* text-align: left; */
+  padding-top: 10px !important;
+}
+.grp7 .col-md-2 {
+  padding-right: 0px !important;
+}
+.grp7 .col-md-9 {
+  padding-left: 25px !important;
+}
+.grp7 .testimnl .img-fluid {
+  margin: 0 0 0 0 !important;
+}
+.grp7 .owl-theme .owl-nav {
+  display: none !important;
+}
+.grp7 .owl-theme .owl-dots {
+  padding-top: 2.5rem;
+}
+/* .................. Group 7 End........................ */
+
+/* .................. Group 8 Start........................ */
+.grp8 {
+  width: 100%;
+  color: #242f51 !important;
+  padding-bottom: 10rem;
+  border-bottom: 1px solid #d7d8db;
+}
+.grp8 button {
+  color: #242f51 !important;
+  font-weight: 600 !important;
+}
+.grp8 .accordion {
+  width: 85%;
+  margin: 0px auto !important;
+}
+.grp8 .accordion-button.collapsed {
+  border-bottom-width: 0;
+  border: none;
+  background-color: #f5f7fa;
+  margin-bottom: 9px;
+}
+.grp8 .accordion-collapse {
+  /* border: solid rgba(0,0,0,.125); */
+  /* border-width: 0 1px; */
+  background-color: #f5f7fa;
+  margin-bottom: 9px;
+  border: none;
+}
+.grp8 .accordion-button:not(.collapsed) {
+  color: #0c63e4;
+  background-color: #e7f1ff;
+  border: none;
+}
+.grp8 .accordion-button:not(.collapsed)::after {
+  content: " \2212";
+  background-image: none;
+  font-size: 35px;
+  font-weight: 200;
+  display: flex;
+  align-items: center;
+}
+.grp8 .accordion-button::after {
+  background-image: none;
+  content: " \002B";
+  font-size: 30px;
+  font-weight: 200;
+  display: flex;
+  align-items: center;
+}
+/* .................. Group 8 End........................ */
+
+/* .................. Group 9 Start........................ */
+.grp9 {
+  width: 100%;
+  padding-top: 7rem;
+  padding-bottom: 0px !important;
+  margin-bottom: -1rem;
+  position: relative;
+  color: #242f51;
+}
+.grp9 .myimg {
+  position: absolute !important;
+  right: 0px !important;
+  top: 38px;
+  width: 55%;
+}
+.grp9 .ftr {
+  width: 100% !important;
+  background-color: #09142e;
+  margin-top: 8rem !important;
+  list-style: none !important;
+}
+.grp9 .ftr .one li {
+  display: inline;
+}
+.grp9 .ftr .one li a {
+  color: #e7f1ff !important;
+  margin: 0 1.5rem;
+}
+.grp9 .ftr .one li a:hover {
+  color: wheat !important;
+}
+.grp9 .ftr .two li {
+  display: inline !important;
+  color: #e7f1ff !important;
+  /* margin-bottom: 3rem !important; */
+}
+.grp9 .ftr .two li a {
+  color: #747577 !important;
+  margin: 3rem 1rem !important;
+  font-size: 25px;
+}
+.grp9 .ftr .two li a:hover {
+  color: white !important;
+}
+.grp9 .ftr h1 {
+  font-weight: 600;
+  padding-top: 7rem !important;
+  color: white;
+}
+.grp9 .ftr span {
+  color: #fcae61 !important;
+}
+.grp9 .ftr p {
+  color: #414655;
+  padding-bottom: 8rem;
+}
+/* .................. Group 9 End........................ */
+
+/* .................. Footer Start........................ */
+/* .................. Footer End........................ */
